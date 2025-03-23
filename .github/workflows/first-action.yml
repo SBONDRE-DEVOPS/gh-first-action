@@ -8,5 +8,5 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done - bye!"
-    
-
+      - name: checkout
+        uses: actions/checkout@v4
