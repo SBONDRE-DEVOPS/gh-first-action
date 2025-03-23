@@ -10,3 +10,7 @@ jobs:
         run: echo "Done - bye!"
       - name: checkout
         uses: actions/checkout@v4
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-versioin: 18
